@@ -18,4 +18,25 @@
 
 Для работы с проектами необходимо установить браузер *[Google Chrome](https://www.google.com/intl/ru_ru/chrome/)*, программу *[Visual Studio Code](https://code.visualstudio.com/)* либо аналог, создать аккаунт на сайте github.com. 
 
+Вы можете встроить NeuroStartUp в ваши приложения с помощью следующих сниппетов (кусочков) кода.
+
+JavaScript:
+```javascript
+<script src="https://localhost/neuro.sdk.min
+js"></script>
+```
+Java (Maven):
+```javascript
+<dependency>
+  <groupId>neuro</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+iOS (добавьте код в ваш Podfile):
+```swift
+platform :ios, '8.0'
+pod "neuro-ios-sdk"
+```
+
 ### Лицензия не требуется
